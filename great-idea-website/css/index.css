@@ -65,13 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header {
-	margin: 0;
-	padding:0;
-}
+
 
  .nav__container {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	list-style: none;
 	text-decoration: none;
 	/*text-align: center;*/
@@ -87,6 +84,7 @@ header {
 	font-size: 20px;
 	/* margin-left: 10px; */
 	margin: 0 auto;
+	color: gray;
 }
 
 .nav__container ul li {
@@ -94,37 +92,113 @@ header {
 }
 .logo {
 	display: inline-block;
-	border: 1px solid red;
-	/* margin-left: 150px; */
+	/* border: 1px solid red; */
+	margin-left: 0px;
 	
 }
 
 .hero__container {
 	/* margin: 0 auto; */
 	width: 100%;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	display: inline-block;
 	margin: 0;
+	height: 550px;
 }
 
 
 .hero__heading {
 	display: inline-block;
-	font-size: 36px;
-	width: 50%;
-	margin: 50px auto;
-	padding: 10px;
+	font-size: 80px;
+	width: 430px;
+	margin: 48px auto;
+	padding: 10px 50px;
 	text-align: center;
-	border: 1px solid red;
-	height: auto;
+	/* border: 1px solid red; */
+	height: 400px;
+	vertical-align: top;
+	padding-left: 50px;
 
+}
+
+.line {
+	border-top: 1px solid black;
+	margin: 20px;
 }
 
 .hero__image {
 	display: inline-block;
-	width: -50%;
-	height: auto;
-	border: 1px solid red;
-	margin: 50px auto;
+	width: 400px;
+	/* height: auto; */
+	/* border: 1px solid red; */
+	margin: 48px auto;
+	border-radius: 50%;
+	vertical-align: top;
+}
+
+.main__body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.btn {
+	border: 2px solid black;
+	width: 200px;
+	text-align: center;
+	box-shadow: 10px 5px 5px black;
+}
+
+.middle-img {
+	margin: 10px;
+}
+
+.features__container {
+	/* border: 1px solid red; */
+	margin: 10px;
+	display: inline-block;
+}
+
+.features {
+	display: inline-block;
+	width: 48%;
+	margin: 0 10px;
+}
+
+.about {
+	display: inline-block;
+	width: 48%;
+	
+}
+
+.services {
+	display: inline-block;
+	width: 31%;
+}
+
+.product {
+	display: inline-block;
+	width: 30%;
+}
+
+.footer {
+	text-align: left;
+}
+
+.vision {
+	display: inline-block;
+	width: 30%;
+}
+
+.num {
+	margin: 20px;
+}
+
+address {
+	margin: 10px;
+}
+
+.copy {
+	margin: 10px;
+	text-align: center;
 }
 
