@@ -69,6 +69,12 @@ p {
 
 }
 
+header {
+	position: fixed;
+	z-index: 10;
+}
+
+
 
 
  .nav__container {
@@ -78,6 +84,7 @@ p {
 	/*text-align: center;*/
 	padding: 0;
 	margin: 0;
+	background: lightgray;
 }
 
 .nav__container, li, a {
