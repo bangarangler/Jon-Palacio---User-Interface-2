@@ -164,7 +164,7 @@ header {
 }
 
 .nav__container {
-  /* border: 1px solid red; */
+  /*border: 1px solid red;*/
   list-style: none;
   text-decoration: none;
   /*text-align: center;*/
@@ -191,9 +191,8 @@ a {
   text-decoration: none;
 }
 .logo {
-  /*border: 1px solid red;*/
   display: inline-block;
-  /* border: 1px solid red; */
+  /*border: 1px solid red;*/
   margin-left: 0px;
   position: absolute;
   margin-top: 20px;
@@ -243,11 +242,11 @@ a {
 }
 
 .btn {
-  border: 2px solid black;
-  width: 200px;
+  border: 1px solid black;
+	width: 150px;
+	line-height: 30px;
   text-align: center;
-  box-shadow: 10px 5px 5px black;
-  
+  box-shadow: 5px 1px 1px black;
 }
 
 .middle-img {
@@ -256,8 +255,9 @@ a {
 
 .features__container {
   /* border: 1px solid red; */
-  margin: 10px;
-  display: inline-block;
+  margin: 40px;
+	display: inline-block;
+	padding: 10px 10px;
 }
 
 .features {
@@ -273,7 +273,8 @@ a {
 
 .services {
   display: inline-block;
-  width: 31%;
+	width: 31%;
+	padding: 3px 10px;
 }
 
 .product {
@@ -282,11 +283,8 @@ a {
 }
 
 .footer {
-  text-align: left;
-}
-
-.footer h3 {
-  padding-bottom: 20px;
+	text-align: left;
+	margin-top: 30px;
 }
 
 .vision {
@@ -295,14 +293,18 @@ a {
 }
 
 .num {
-  margin: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	text-align: left;
 }
 
-address {
-  margin: 10px;
+address, p {
+	margin: 10px;
+	text-align: left;
+	
 }
 
 .copy {
-  margin: 10px;
+  margin: 30px;
   text-align: center;
 }
